@@ -1,0 +1,34 @@
+proyecto_libros/
+│
+├── assets/
+│   ├── css/
+│   │   ├── styles.css
+│   │   └── bootstrap.min.css
+│   │
+│   └── js/
+│       ├── scripts.js
+│       └── bootstrap.min.js
+│
+├── includes/
+│   ├── header.php
+│   └── footer.php
+│
+├── pages/
+│   ├── login.php
+│   ├── registro.php
+│   ├── principal.php
+│   ├── libros_admin.php
+│   └── libros_usuario.php
+│
+├── actions/
+│   ├── login_action.php
+│   ├── registro_action.php
+│   ├── agregar_libro.php
+│   ├── editar_libro.php
+│   └── eliminar_libro.php
+│
+├── config/
+│   ├── db.php
+│   └── session.php
+│
+└── index.php

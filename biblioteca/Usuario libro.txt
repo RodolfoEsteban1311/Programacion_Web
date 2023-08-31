@@ -1,0 +1,7 @@
+CREATE TABLE usuario_libro (
+    id_usuario_libro INT PRIMARY KEY AUTO_INCREMENT,
+    id_usuario INT,
+    id_libro INT,
+    FOREIGN KEY (id_usuario) REFERENCES usuario(id_usuario),
+    FOREIGN KEY (id_libro) REFERENCES libro(id_libro)
+);

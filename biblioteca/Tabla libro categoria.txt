@@ -1,0 +1,7 @@
+CREATE TABLE libro_categoria (
+    id_libro_categoria INT PRIMARY KEY AUTO_INCREMENT,
+    id_libro INT,
+    id_categoria INT,
+    FOREIGN KEY (id_libro) REFERENCES libro(id_libro),
+    FOREIGN KEY (id_categoria) REFERENCES categoria(id_categoria)
+);
